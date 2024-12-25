@@ -1,0 +1,117 @@
+header{
+    background-color:#9AA0A6 ;
+    color: black;
+    position: fixed; /* Фиксирует хэдер на экране */
+  top: 0; /* Располагает хэдер вверху страницы */
+  left: 0; /* Располагает хэдер слева */
+  width: 100%; /* Ширина хедера на всю ширину страницы */
+  padding: 10px 10px; /* Отступы */
+  z-index: 1000; /* Устанавливает приоритет над другими элементами */
+  height: 50px;
+  
+  
+}
+html{
+  background-color: lightgrey;
+}
+body {
+    margin-top: 100px; /* Отступ равен высоте хедера */
+}
+
+nav il {
+  list-style-type: none; /* Убирает маркеры у списка */
+  padding: 0; /* Убирает отступы */
+  margin: 0; /* Убирает маргин */
+  display: flex; /* Выстраивает элементы списка в одну строку */
+  
+}
+
+nav il li {
+  margin-right: 20px; /* Отступ между элементами */
+  text-decoration: none; /* убираем подчёркивание ссылок */
+  font-family: Rubik;
+  background-color: #44464d;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+
+  height: 20px;
+  overflow: hidden;
+
+}
+p{
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Noto-Sans;
+}
+table{
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: grey;
+  border: width;
+}
+th{
+   border-color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+td{
+   border-color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+h1{
+  font-size: 36px;
+  font-family: Ubuntu;
+}
+h3{
+  font-size: 24px;
+  font-family: Rubik;
+}
+h2{
+  font-size: 30px;
+  font-family: Rubik;
+}
+form{
+  font-family: Rubik;
+}
+a{
+  color: white;
+  text-decoration: none; /* убираем подчёркивание ссылок */
+  font-family: Rubik;
+}
+a:hover {
+    color: black;
+}
+image{
+  width: 958px;
+  height: 575px;
+}
+li a img{
+  width: 36px;
+  height: 51px;
+}
+footer{
+  background-color:#9AA0A6;
+  width:100%;
+  margin: 0 auto;
+  bottom: 0;
+  position:fixed;
+  z-index: 1000;
+  left: 0;
+  padding: 0 10px;
+}
+nav il li:first-child {
+     background-color:#9AA0A6 ; /* Изменит цвет текста первого элемента */
+     overflow: visible;
+     top: 40%;
+     display: contents;
+     
+}
+
+
+
+
