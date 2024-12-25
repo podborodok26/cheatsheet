@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet">
@@ -8,6 +11,7 @@
         <header>
           <nav>
             <il>
+                <li><a href="https://www.youtube.com/watch?v=yj7w7XSIYLA&t=607s" target="_blank"><img src="png-transparent-html-5-logo-thumbnail.png"></a></li>
                 <li><a href="#HTML">HTML</a></li>
                 <li><a href="#tag">Тэги</a></li>
                 <li><a href="#tables">Таблицы</a></li>
@@ -24,7 +28,10 @@
 
     </head>
     <body>
+       
         <h1 id="HTML">HTML</h1>
+        <img src="What-is-HTML-958x575.png" alt="HTML code">
+
         <h2 id="tag">Тэги</h2>
           <h3>&lt a &gt Якорный элемент</h3>
             <p>Элемент &lt a &gt привязки используется для создания гиперссылок в документе HTML. Гиперссылки могут указывать на другие веб-страницы, файлы на том же сервере, местоположение на той же странице или любой другой URL через атрибут ссылки гиперссылки, href. href Определяет местоположение, на которое указывает элемент привязки.</p>
@@ -41,12 +48,12 @@
           <h3>&lt title &gt Элемент заголовка</h3>
             <p>Элемент &lt title &gt содержит текст, определяющий заголовок HTML-документа. Заголовок отображается в строке заголовка браузера или на вкладке, на которой отображается HTML-страница. Элемент &lt title &gt может содержаться только внутри элемента документа &lt head &gt&lt /head &gt </p>
           <h3>&lt li &gt Элемент списка элементов</h3>
-            <p>Элемент списка &lt li &gt создает элементы списка внутри:
+            <p>Элемент списка &lt li &gt создает элементы списка внутри:</p>
               <ul>
                 <li>Упорядоченные списки &lt ol &gt</li>
                 <li>Неупорядоченные списки &lt ul &gt</li>
               </ul>
-            </p>
+            
           <h3>&lt video &gt Видео элемент</h3>
             <p>Элемент &lt video &gt встраивает медиаплеер для воспроизведения видео. src Атрибут будет содержать URL-адрес видео. Добавление controls атрибута отобразит элементы управления видео в медиаплеере.
             <br>
@@ -71,6 +78,7 @@
             <p>Элемент &lt strong &gt выделяет важный, серьезный или срочный текст, и браузеры обычно по умолчанию отображают этот выделенный текст жирным шрифтом</p>
             <br>
           <p><a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet"> ссылка но более подробный конспект</a></p>
+    
 
         <h2 id="tables">Таблицы</h2>
           <h3>&lt table &gt Элемент таблицы</h3>
@@ -99,7 +107,7 @@
               <th scope="col">колонны</th>
               <th scope="row">ряды</th>
             </tbody>
-            <tfoot><td colspan="2">тут использован tfoot для нижнего колонтитула</tfoot>
+            <tfoot><td colspan="2">тут использован tfoot для нижнего колонтитула</td></tfoot>
           </table>
             <p><a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-tables/cheatsheet"> ссылка но более подробный конспект</a></p>
         <h2 id="forms">Формы</h2>
@@ -151,14 +159,14 @@
           <h3>min Атрибут</h3>
             <p>В HTML поля ввода с типом numberимеют атрибут min, который определяет минимальное значение, которое можно ввести в поле.</p>
             <form action="mailto:nikitosnormos@gmail.com" name="testform">
-              <input type="checkbox" name="testform"> checkbox type</input><br>
-              <input type="textarea" name="testform"> textarea type</input><br>
-              <input type="number" min="1" max="10" name="testform"> number type</input><br>
+              <input type="checkbox" name="testform"> checkbox type<br>
+              <input type="textarea" name="testform"> textarea type<br>
+              <input type="number" min="1" max="10" name="testform"> number type<br>
               <label for="testform">radio button</label><br>
-                <input type="radio" name="testform">radio button 1</input><br>
-                <input type="radio" name="testform">radio button 2</input><br>
-                <input type="radio" name="testform">radio button 3</input><br>
-              <input type="submit" name="testform">submit button</input>
+                <input type="radio" name="testform">radio button 1<br>
+                <input type="radio" name="testform">radio button 2<br>
+                <input type="radio" name="testform">radio button 3<br>
+              <input type="submit" name="testform">submit button
             </form>
 
 
@@ -211,6 +219,7 @@
         
     </body>
     <footer>
+      <a href="#HTML">вернуться наверх</a>
 
     </footer>
 </html>
